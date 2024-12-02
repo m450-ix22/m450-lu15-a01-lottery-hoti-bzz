@@ -1,3 +1,4 @@
+"""test_main"""
 import pytest
 import main
 
@@ -8,7 +9,7 @@ def mock_functions(monkeypatch):
         """Dummy function to replace the function 'login' in main"""
         pass
 
-    def dummy_transfer(person):
+    def dummy_transfer():
         """Dummy function to replace the function 'transfer_money' in main"""
         pass
 
@@ -17,7 +18,7 @@ def mock_functions(monkeypatch):
         print("Lotto\n---------\nA) Konto Ein- und Auszahlungen tätigen\nB) Lottotipps abgeben\nZ) Beenden")
         return input("")
 
-    def dummy_ticket(person):
+    def dummy_ticket():
         """Dummy function to replace the function 'create_ticket' in main"""
         pass
 
