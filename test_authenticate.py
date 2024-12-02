@@ -4,7 +4,7 @@ from authenticate import login
 
 def test_login_success(monkeypatch):
     inputs = iter(["geheim"])
-    monkeypatch.setattr('builtins.input', lambda _: next(inputs))
+    monkeypatch.setattr("builtins.input", lambda _: next(inputs))
     person = login()
     assert person.givenname == "Inga"
 
