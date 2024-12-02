@@ -21,7 +21,7 @@ def mock_functions(monkeypatch):
         print('Lotto\n---------\nA) Konto Ein- und Auszahlungen tätigen\nB) Lottotipps abgeben\nZ) Beenden')
         return input('')
 
-    def dummy_ticket(person):
+    def dummy_ticket():
         """Dummy function to replace the function 'create_ticket' in main"""
         pass
 
