@@ -16,5 +16,47 @@
     "function": "test_main_ticket",
     "timeout": 10,
     "points": 1
+  },
+  {
+    "name": "test_create_ticket_success",
+    "function": "test_create_ticket_success",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_create_ticket_fail",
+    "function": "test_create_ticket_fail",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_login_success",
+    "function": "test_login_success",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_login_fail",
+    "function": "test_login_fail",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_int_valid",
+    "function": "test_read_int_valid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_int_invalid",
+    "function": "test_read_int_invalid",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_transfer_money_success",
+    "function": "test_transfer_money_success",
+    "timeout": 10,
+    "points": 1
   }
 ]
